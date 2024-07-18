@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from ultralytics import YOLO
 
 #Load model
-yolo_yaml_path = r'C:\Users\Admin\Desktop\LearningAI\CarDetection\yolo_data\data.yml'
+yolo_yaml_path = r'\CarDetection\yolo_data\data.yml'
 model = YOLO('yolov8s.yaml').load('yolov8s.pt')
 
 #Set up some important parametters
