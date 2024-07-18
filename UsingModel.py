@@ -1,8 +1,8 @@
 import os
 from ultralytics import YOLO
 
-model_path = r'C:\Users\Admin\Desktop\LearningAI\CarDetection\model\yolov8\detect\train\weights\best.pt'
-test_img_path = r'C:\Users\Admin\Desktop\LearningAI\CarDetection\Test'
+model_path = r'\CarDetection\model\yolov8\detect\train\weights\best.pt'
+test_img_path = r'\CarDetection\Test'
 
 conf_thres = 0.8
 model = YOLO(model_path)
